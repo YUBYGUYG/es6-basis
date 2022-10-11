@@ -48,16 +48,27 @@ console.log(materias)
 
 
 
-//actualizar: findindex
-const materia=materias.findIndex((materia)=>{
+//splice: delete
+/*const materia=materias.findIndex((materia)=>{
     return materia.nombre === "Bases de Datos";
 })
 console.log(materia)
 
-
-//splice: delete
 materias.splice(materia.id,1)
-console.log(materias)
+console.log(materias)*/
+
+//Actualizar
+materias.findIndex((materia)=>{
+    if(materia.id == 1){
+        materia.nombre="Inglés";
+        materia.instructor ="Yuliana"
+    }
+    return materia;
+ })
+ console.log(materias)
+
+
+
 
 
 
