@@ -1,12 +1,12 @@
 {
   "name": "es6-basis",
-  "type": "module",
+  "type": "commonjs",
   "version": "1.0.0",
   "description": "learning es6 project",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon promises/1_simple.js"
   },
   "keywords": [
     "arreglos",
@@ -19,6 +19,9 @@
     "nodemon": "^2.0.20"
   },
   "dependencies": {
-    "colors": "^1.4.0"
+    "axios": "^1.1.2",
+    "colors": "^1.4.0",
+    "needle": "^3.1.0",
+    "xmlhttprequest": "^1.8.0"
   }
 }

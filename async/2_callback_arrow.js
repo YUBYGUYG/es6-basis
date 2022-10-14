@@ -30,6 +30,7 @@ const get_data=(endpoint, exito, fallo)=>{
         } else{
             fallo(http.status)
         }
+        exito(http.responseText)
     }
 }
 
