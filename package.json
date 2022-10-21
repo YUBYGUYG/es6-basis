@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon promises/1_simple.js"
+    "dev": "nodemon evidencias/api1.js"
   },
   "keywords": [
     "arreglos",

@@ -54,14 +54,14 @@ console.log(materias)
 })
 console.log(materia)
 
-materias.splice(materia.id,1)
+materias.splice(materia.id,3)
 console.log(materias)*/
 
 //Actualizar
 materias.findIndex((materia)=>{
     if(materia.id == 1){
-        materia.nombre="Inglés";
-        materia.instructor ="Yuliana"
+        materia.nombre="Javascript";
+        materia.instructor ="Cristian"
     }
     return materia;
  })
