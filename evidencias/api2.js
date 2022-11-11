@@ -2,18 +2,15 @@ const axios = require('axios')
 
 let config = {
     method:'get',
-    url: 'https://isro.vercel.app/api/spacecrafts'
+    url: "https://x-colors.herokuapp.com/api/random"
 }
-const f = async()=>{
-    try {
-        let response=await axios(config)
-        response.data.forEach(element => {
-            console.log(`Tipo: ${element.spacecrafts.name}`)
-            console.log('/////////////')
-        });
+
+const f = async () =>{
+    try{
+        let response = await axios(config)
+        console.log(response.data.hsl)
     } catch (error) {
         console.error(error)
-        console.log('no sirve')
     }
 }
 f()
